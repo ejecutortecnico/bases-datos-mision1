@@ -4,6 +4,16 @@ import mysql.connector
 nombre="test"
 apellido="tes"
 
+# db_config = {
+#     'host': 'localhost',
+#     'user': 'root',
+#     'password': 'tu_password',
+#     'database': 'mi_base'
+# }
+
+# def get_db_connection():
+#     return mysql.connector.connect(**db_config)
+
 conexion1=mysql.connector.connect(host="localhost", user="root", passwd="",database="food")
 #cursor1=conexion1.cursor()
 # cursor1.execute("show tables")
